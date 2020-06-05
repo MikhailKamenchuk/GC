@@ -1,0 +1,77 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.column-3{
+  width: 25%;
+  text-align: center;
+}
+.column-2{
+  width: 15%;
+}
+.column-10{
+  width: 85%;
+}
+.column-9{
+  width: 75%;
+}
+.column-12{
+  width: 100%;
+}
+
+.blue{
+  background-color: cadetblue;
+  color: floralwhite;
+
+}
+
+.gray{
+  background-color: lightgray;
+
+}
+
+.photo{
+  overflow: hidden;
+  padding: 10px;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.photo img{
+  max-width: calc(100% - 20px);
+}
+
+.contacts{
+  padding:0 20px 10px 20px;
+  text-align: center;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.light{
+  font-weight: lighter;
+}
+
+.years{
+  padding-top: 40px;
+}
