@@ -18,3 +18,16 @@ let someArray = [
 const searchByName = (name) => {
     return someArray.filter(item => item.name === name)
 };
+
+/////Latest function from Codewars
+function getSum( a,b )
+{
+   //Good luck!
+   let min = a;
+   let max = b;
+   if(a > b) {
+        min = b;
+        max = a;
+   }
+   return   min === max ? min : (min + max) * (max - min + 1) / 2;
+}
